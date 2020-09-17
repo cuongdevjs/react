@@ -8,6 +8,6 @@
   "dependencies": {
     "react-native": "^0.17.0",
     "react-native-audioplayer": "^0.2.0",
-    "react-native-sound": "^0.7.2"
+    "react-native-sound": "^0.11.0"
   }
 }
