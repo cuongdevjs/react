@@ -3,7 +3,7 @@
   "description": "Basic example of using React with CommonJS",
   "main": "index.js",
   "dependencies": {
-    "babelify": "^6.3.0",
+    "babelify": "^7.0.0",
     "react": "^0.14.0-rc1",
     "react-dom": "^0.14.0-rc1",
     "watchify": "^3.4.0"
