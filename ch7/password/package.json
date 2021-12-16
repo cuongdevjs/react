@@ -6,7 +6,9 @@
   "scripts": {
     "test": "jest",
     "build": "gulp build",
-    "dev": "gulp"
+    "dev": "gulp",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "author": "Azat Mardan",
   "license": "MIT",
@@ -16,10 +18,12 @@
     "react-addons-test-utils": "0.14.0"
   },
   "dependencies": {
-    "gulp": "3.9.0",
+    "gulp": "4.0.0",
     "gulp-babel": "5.2.1",
     "gulp-concat": "2.6.0",
     "gulp-sourcemaps": "1.6.0",
-    "gulp-watch": "4.3.5"
-  }
+    "gulp-watch": "4.3.5",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
