@@ -3,12 +3,16 @@
   "description": "Basic example of using React with CommonJS",
   "main": "index.js",
   "dependencies": {
-    "babelify": "^6.3.0",
+    "babelify": "^7.0.0",
     "react": "^0.14.0-rc1",
     "react-dom": "^0.14.0-rc1",
-    "watchify": "^3.4.0"
+    "watchify": "^4.0.0",
+    "@snyk/protect": "latest"
   },
   "scripts": {
-    "start": "watchify index.js -v -t babelify -o bundle.js"
-  }
+    "start": "watchify index.js -v -t babelify -o bundle.js",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
