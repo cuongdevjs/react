@@ -3,11 +3,15 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "react-native start"
+    "start": "react-native start",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
-    "react-native": "^0.17.0",
+    "react-native": "^0.63.0",
     "react-native-audioplayer": "^0.2.0",
-    "react-native-sound": "^0.7.2"
-  }
+    "react-native-sound": "^0.7.2",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
