@@ -16,7 +16,7 @@
     "react-addons-test-utils": "0.14.0"
   },
   "dependencies": {
-    "gulp": "3.9.0",
+    "gulp": "5.0.0",
     "gulp-babel": "5.2.1",
     "gulp-concat": "2.6.0",
     "gulp-sourcemaps": "1.6.0",
