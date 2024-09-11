@@ -16,10 +16,10 @@
   "author": "Azat Mardan",
   "license": "MIT",
   "dependencies": {
-    "body-parser": "1.13.2",
+    "body-parser": "1.20.3",
     "compression": "1.5.1",
     "errorhandler": "1.4.1",
-    "express": "4.13.1",
+    "express": "4.20.0",
     "express-validator": "2.13.0",
     "mongodb": "2.0.36",
     "morgan": "1.6.1"
